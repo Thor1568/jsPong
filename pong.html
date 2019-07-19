@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pong</title>
+    <style>
+    * {
+      padding: 0;
+      margin: 0;
+      background-color: rgba(0, 0, 0, 1);
+    }
+    canvas { background: #eee; display: block; margin: 0 auto; }
+    h1 {
+      font-family: fantasy;
+      font-size: 20
+    }
+    div {
+      background-color: rgba(0, 0, 0, 1);
+    }
+    #header {
+      color: white;
+      padding: 50px
+    }
+    #info {
+      margin-top: 20px;
+      color:white;
+      margin-left: 620px;
+      font-family: fantasy;
+      font-size: 20;
+    }
+    </style>
+  </head>
+  <body>
+    <div id='header'>
+      <h1><center>DJ's Pong</center></h1>
+    </div>
+
+    <div id='game'>
+      <canvas id = "gameCanvas" width= "480" height="480"></canvas>
+      <script src='js/pong.js'></script>
+    <div id='info'>
+      <h2>Controls</h2>
+      <p>Movement
+        <br>
+        <ul>
+          <li>Use Up and Down arrow for the left</li>
+          <li>Use W and S for the right</li>
+          <li>Press P to pause the game</li>
+        </ul>
+        <br>
+        Play to any score, and press R to reset all.
+      </p>
+    <div>
+
+    </div>
+  </body>
+</html>
